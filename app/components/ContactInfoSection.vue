@@ -11,6 +11,7 @@
                 <i class="far fa-phone"></i>
               </div>
               <h5>Phone Number</h5>
+              <p>+254 717 269 050</p>
               <p>+254 115 511 079</p>
             </div>
             <div class="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated"
@@ -19,8 +20,10 @@
                 <i class="far fa-envelope-open"></i>
               </div>
               <h5>Email Address</h5>
-              <p> <a href="mailto:info@commercialkitchen.co.ke">info@commercialkitchen.co.ke</a><br><a
-                  href="mailto:sales@commercialkitchen.co.ke">sales@commercialkitchen.co.ke</a></p>
+              <p> 
+                <p>info@commercialkitchen.co.ke</p>
+                <p>sales@commercialkitchen.co.ke</p>
+              </p>
             </div>
             <div class="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated"
               data-delay=".2s">
@@ -28,7 +31,10 @@
                 <i class="far fa-map"></i>
               </div>
               <h5>Physical Address</h5>
-              <p>Kindaruma Rd, Nairobi, Kenya</p>
+              <p>Kindaruma Rd, 
+                <br> 
+                Nairobi, Kenya
+              </p>
             </div>
           </div>
         </div>

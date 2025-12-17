@@ -148,7 +148,7 @@ onMounted(() => {
       asNavFor: '.testimonial-nav'
     });
     $('.testimonial-nav').slick({
-      slidesToShow: 3,
+      slidesToShow: 1,
       slidesToScroll: 1,
       asNavFor: '.testimonial-for',
       dots: false,
@@ -156,9 +156,106 @@ onMounted(() => {
       centerMode: true,
       focusOnSelect: true,
       variableWidth: false,
-      prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
-      nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
+      prevArrow: '<button type="button" class="slick-prev testimonial-arrow"><i class="fas fa-chevron-left"></i></button>',
+      nextArrow: '<button type="button" class="slick-next testimonial-arrow"><i class="fas fa-chevron-right"></i></button>',
     });
   }, 100);
 })
 </script>
+
+<style scoped>
+/* Testimonial nav wrapper for proper centering */
+.testimonial-nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto 30px;
+  padding: 0 100px;
+}
+
+/* Uniform image sizing for testimonial nav */
+.testimonial-nav .testimonial-item {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.testimonial-nav .testimonial-item img {
+  width: 180px !important;
+  height: 180px !important;
+  object-fit: contain;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 15px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  border: 4px solid #f47629;
+  margin: 0 auto;
+}
+
+/* Arrow styling - positioned on sides of viewport */
+:deep(.testimonial-arrow) {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #f47629, #ff9a5a);
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 20px rgba(244, 118, 41, 0.4);
+  transition: all 0.3s ease;
+}
+
+:deep(.testimonial-arrow:hover) {
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 8px 30px rgba(244, 118, 41, 0.6);
+}
+
+:deep(.slick-prev.testimonial-arrow) {
+  left: 0;
+}
+
+:deep(.slick-next.testimonial-arrow) {
+  right: 0;
+}
+
+/* Ensure slick track centers content */
+:deep(.slick-track) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:deep(.slick-slide) {
+  display: flex !important;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .testimonial-nav {
+    padding: 0 60px;
+  }
+
+  .testimonial-nav .testimonial-item img {
+    width: 140px !important;
+    height: 140px !important;
+  }
+
+  :deep(.testimonial-arrow) {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+</style>

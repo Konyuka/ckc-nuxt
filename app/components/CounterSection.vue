@@ -5,32 +5,32 @@
         <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
             <div class="counter p-relative">
-              <span class="count">1547</span>                               
-              <p>Project <br>Completed</p>
+              <span class="count">20</span><span class="counter-suffix">+</span>
+              <p>Kitchen Projects <br>Completed</p>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
             <div class="counter p-relative">
-              <span class="count">2587</span>                               
-              <p>Our Happy <br>Clients</p>
+              <span class="count">18</span><span class="counter-suffix">+</span>
+              <p>Satisfied <br>Clients</p>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
             <div class="counter p-relative">
-              <span class="count">1879</span>                               
-              <p>Cup <br>Of Coffee</p>
+              <span class="count">7</span><span class="counter-suffix">+</span>
+              <p>Expert Team <br>Members</p>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="single-counter wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
             <div class="counter p-relative">
-              <span class="count">2547</span>                               
-              <p>Win <br>Awards</p>
+              <span class="count">3</span><span class="counter-suffix">+</span>
+              <p>Years of <br>Excellence</p>
             </div>
           </div>
         </div>
