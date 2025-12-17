@@ -1,99 +1,72 @@
 <template>
-  <section id="team" class="team-area fix p-relative pt-120 pb-90" style="background: #1e1e1e;">  
-    <div class="container">  
+  <section id="team" class="team-area fix p-relative pt-120 pb-90" style="background: #1e1e1e;">
+    <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="section-title text-center mb-50 ">
-            <h5><span class="line"> <img src="/img/bg/circle_right.png" alt="circle_right"></span> PROFECTIONAL TEAM</h5>
+            <h5><span class="line"> <img src="/img/bg/circle_right.png" alt="circle_right"></span> PROFECTIONAL TEAM
+            </h5>
             <h2>Meet Our Leadership Team</h2>
           </div>
         </div>
       </div>
-      <div class="row team-active">                   
+      <div class="row team-active">
         <div class="col-xl-3 col-lg-3">
-          <div class="single-team mb-30" >
+          <div class="single-team mb-30">
             <div class="team-thumb">
               <div class="brd">
-                <img src="/img/team/team01.jpg" alt="img"> 
+                <img src="/img/team/team01.jpg" alt="img">
                 <div class="team-social">
-                  <ul>
-                    <li><a href="#" tabindex="0"><i class="fab fa-facebook-f"></i></a></li> 
-                    <li> <a href="#" tabindex="0"><i class="fab fa-twitter"></i></a></li>   
-                    <li><a href="#" tabindex="0"><i class="fab fa-behance"></i></a></li>   
-                    <li><a href="#" tabindex="0"><i class="fab fa-youtube"></i></a></li>   
-                    <li><a href="#" tabindex="0"><i class="fab fa-linkedin-in"></i></a></li>   
-                  </ul>       
                 </div>
               </div>
-              <div class="team-info">                                         
-                <h4><a href="#">Kristal Leo</a></h4>
-                <p>Designer</p>
+              <div class="team-info">
+                <h4><a href="#">John Kamau</a></h4>
+                <p>Technical Director</p>
               </div>
             </div>
           </div>
         </div>
         <div class="col-xl-3 col-lg-3">
-          <div class="single-team mb-30" >
+          <div class="single-team mb-30">
             <div class="team-thumb">
               <div class="brd">
                 <img src="/img/team/team02.jpg" alt="img">
                 <div class="team-social">
-                  <ul>
-                    <li><a href="#" tabindex="0"><i class="fab fa-facebook-f"></i></a></li> 
-                    <li> <a href="#" tabindex="0"><i class="fab fa-twitter"></i></a></li>   
-                    <li><a href="#" tabindex="0"><i class="fab fa-behance"></i></a></li>   
-                    <li><a href="#" tabindex="0"><i class="fab fa-youtube"></i></a></li>   
-                    <li><a href="#" tabindex="0"><i class="fab fa-linkedin-in"></i></a></li>   
-                  </ul>       
                 </div>
-              </div> 
-              <div class="team-info">                                        
-                <h4><a href="#">Reshta Wann</a></h4>
-                <p>Designer</p>
+              </div>
+              <div class="team-info">
+                <h4><a href="#">Sarah Ochieng</a></h4>
+                <p>Design Lead</p>
               </div>
             </div>
           </div>
         </div>
         <div class="col-xl-3 col-lg-3">
-          <div class="single-team mb-30" >
+          <div class="single-team mb-30">
             <div class="team-thumb">
               <div class="brd">
                 <img src="/img/team/team03.jpg" alt="img">
                 <div class="team-social">
-                  <ul>
-                    <li><a href="#" tabindex="0"><i class="fab fa-facebook-f"></i></a></li> 
-                    <li> <a href="#" tabindex="0"><i class="fab fa-twitter"></i></a></li>   
-                    <li><a href="#" tabindex="0"><i class="fab fa-behance"></i></a></li>   
-                    <li><a href="#" tabindex="0"><i class="fab fa-youtube"></i></a></li>   
-                    <li><a href="#" tabindex="0"><i class="fab fa-linkedin-in"></i></a></li>   
-                  </ul>       
                 </div>
               </div>
-              <div class="team-info">                                         
-                <h4><a href="#">Amelia Daniel</a></h4>
-                <p>Designer</p>
+              <div class="team-info">
+                <h4><a href="#">David Mwangi</a></h4>
+                <p>Head of Fabrication</p>
               </div>
             </div>
           </div>
         </div>
         <div class="col-xl-3 col-lg-3">
-          <div class="single-team mb-30" >
+          <div class="single-team mb-30">
             <div class="team-thumb">
               <div class="brd">
                 <img src="/img/team/team04.jpg" alt="img">
                 <div class="team-social">
-                  <ul>
-                    <li><a href="#" tabindex="0"><i class="fab fa-facebook-f"></i></a></li> 
-                    <li> <a href="#" tabindex="0"><i class="fab fa-twitter"></i></a></li>   
-                    <li><a href="#" tabindex="0"><i class="fab fa-behance"></i></a></li>   
-                    <li><a href="#" tabindex="0"><i class="fab fa-youtube"></i></a></li>   
-                    <li><a href="#" tabindex="0"><i class="fab fa-linkedin-in"></i></a></li>   
-                  </ul>       
                 </div>
               </div>
-              <div class="team-info">                                        
-                <h4><a href="#">Jack Martin</a></h4>
-                <p>Designer</p>
+              <div class="team-info">
+                <h4><a href="#">James Njoroge</a></h4>
+                <p>Projects Manager</p>
               </div>
             </div>
           </div>
@@ -118,13 +91,13 @@ onMounted(() => {
       prevArrow: '<button type="button" class="slick-prev"><i class="far fa-chevron-left"></i></button>',
       nextArrow: '<button type="button" class="slick-next"><i class="far fa-chevron-right"></i></button>',
       speed: 1000,
-      slidesToShow:4,
+      slidesToShow: 4,
       slidesToScroll: 1,
       responsive: [
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow:4,
+            slidesToShow: 4,
             slidesToScroll: 1,
             infinite: true,
             dots: true

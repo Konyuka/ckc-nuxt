@@ -1,7 +1,7 @@
 <template>
   <main>
     <Breadcrumb title="About Us" />
-    <AboutSection />
+    <AboutPageContent />
     <TeamSection />
     <TestimonialSection />
   </main>

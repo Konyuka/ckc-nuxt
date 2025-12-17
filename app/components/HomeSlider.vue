@@ -1,40 +1,45 @@
 <template>
-  <section id="home" class="slider-area fix p-relative">                      
-    <div class="slider-active-two" style="background: #333333;">   
-      <div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(/img/slider/slider_bg.png); background-size: cover;">   
-        <div class="container">      
+  <section id="home" class="slider-area fix p-relative">
+    <div class="slider-active-two" style="background: #333333;">
+      <!-- Slide 1 -->
+      <div class="single-slider slider-bg d-flex align-items-center"
+        style="background-image: url(/img/slider/slider_bg.png); background-size: cover;">
+        <div class="container">
           <div class="slider-price">
             <ul>
-              <li><a href="#">FB</a></li>
-              <li><a href="#">LG</a></li>
-              <li><a href="#">TW</a></li>
+              <li><a href="#">KE</a></li>
+              <li><a href="#">TZ</a></li>
+              <li><a href="#">UG</a></li>
             </ul>
           </div>
           <div class="number-content">
             <ul>
               <li>
                 <span>01</span>
-                <p>Design Your Dream Home With Us</p>
+                <p>Premium Kitchen Equipment</p>
               </li>
               <li>
                 <span>02</span>
-                <p>Stylish New York Apartment</p>
+                <p>Custom SS Fabrication</p>
               </li>
               <li>
                 <span>03</span>
-                <p>Combine Modern Kitchen</p>
+                <p>Expert Design & Layout</p>
               </li>
             </ul>
           </div>
-          <div class="row justify-content-center align-items-center">                              
+          <div class="row justify-content-center align-items-center">
             <div class="col-lg-7 col-md-12">
               <div class="slider-content s-slider-content mt-20">
-                <h2 data-animation="fadeInUp" data-delay=".4s">Design Your Dream Home With Us</h2>
-                <p data-animation="fadeInDown" data-delay=".4s">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>    
+                <h2 data-animation="fadeInUp" data-delay=".4s">Transforming Culinary Spaces in Kenya</h2>
+                <p data-animation="fadeInDown" data-delay=".4s">Top-tier commercial kitchen equipment, design, and
+                  fabrication services for hotels, restaurants, and institutions in Nairobi, Mombasa, Eldoret, and
+                  beyond.</p>
               </div>
-              <div class="slider-btn mt-30 ml">     
-                <a href="#" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover Now</a>  
-              </div>        
+              <div class="slider-btn mt-30 ml">
+                <a href="/projects" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">View Our
+                  Projects</a>
+              </div>
             </div>
             <div class="col-lg-5 col-md-12 p-relative">
             </div>
@@ -48,40 +53,44 @@
           <!-- Lines -->
         </div>
       </div>
-      <div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(/img/slider/slider_img_bg02.png); background-size: cover;">  
-        <div class="container">      
+      <!-- Slide 2 -->
+      <div class="single-slider slider-bg d-flex align-items-center"
+        style="background-image: url(/img/slider/slider_img_bg02.png); background-size: cover;">
+        <div class="container">
           <div class="slider-price">
             <ul>
-              <li><a href="#">FB</a></li>
-              <li><a href="#">LG</a></li>
-              <li><a href="#">TW</a></li>
+              <li><a href="#">KE</a></li>
+              <li><a href="#">TZ</a></li>
+              <li><a href="#">UG</a></li>
             </ul>
           </div>
           <div class="number-content">
             <ul>
               <li>
                 <span>01</span>
-                <p>Design Your Dream Home With Us</p>
+                <p>Premium Kitchen Equipment</p>
               </li>
               <li>
                 <span>02</span>
-                <p>Stylish New York Apartment</p>
+                <p>Custom SS Fabrication</p>
               </li>
               <li>
                 <span>03</span>
-                <p>Combine Modern Kitchen</p>
+                <p>Expert Design & Layout</p>
               </li>
             </ul>
           </div>
-          <div class="row justify-content-center align-items-center">                              
+          <div class="row justify-content-center align-items-center">
             <div class="col-lg-7 col-md-12">
               <div class="slider-content s-slider-content mt-20">
-                <h2 data-animation="fadeInUp" data-delay=".4s">Design Your Dream Home With Us</h2>
-                <p data-animation="fadeInDown" data-delay=".4s">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>    
+                <h2 data-animation="fadeInUp" data-delay=".4s">Masterful Stainless Steel Fabrication</h2>
+                <p data-animation="fadeInDown" data-delay=".4s">Custom-built worktables, sinks, hoods, and shelving
+                  designed to fit your unique kitchen workflow perfectly.</p>
               </div>
-              <div class="slider-btn mt-30 ml">     
-                <a href="#" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover Now</a>  
-              </div>        
+              <div class="slider-btn mt-30 ml">
+                <a href="/services" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">Explore
+                  Services</a>
+              </div>
             </div>
             <div class="col-lg-5 col-md-12 p-relative">
             </div>
@@ -95,40 +104,43 @@
           <!-- Lines -->
         </div>
       </div>
-      <div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(/img/slider/slider_img_bg03.png); background-size: cover;">  
-        <div class="container">      
+      <!-- Slide 3 -->
+      <div class="single-slider slider-bg d-flex align-items-center"
+        style="background-image: url(/img/slider/slider_img_bg03.png); background-size: cover;">
+        <div class="container">
           <div class="slider-price">
             <ul>
-              <li><a href="#">FB</a></li>
-              <li><a href="#">LG</a></li>
-              <li><a href="#">TW</a></li>
+              <li><a href="#">KE</a></li>
+              <li><a href="#">TZ</a></li>
+              <li><a href="#">UG</a></li>
             </ul>
           </div>
           <div class="number-content">
             <ul>
               <li>
                 <span>01</span>
-                <p>Design Your Dream Home With Us</p>
+                <p>Premium Kitchen Equipment</p>
               </li>
               <li>
                 <span>02</span>
-                <p>Stylish New York Apartment</p>
+                <p>Custom SS Fabrication</p>
               </li>
               <li>
                 <span>03</span>
-                <p>Combine Modern Kitchen</p>
+                <p>Expert Design & Layout</p>
               </li>
             </ul>
           </div>
-          <div class="row justify-content-center align-items-center">                              
+          <div class="row justify-content-center align-items-center">
             <div class="col-lg-7 col-md-12">
               <div class="slider-content s-slider-content mt-20">
-                <h2 data-animation="fadeInUp" data-delay=".4s">Design Your Dream Home With Us</h2>
-                <p data-animation="fadeInDown" data-delay=".4s">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>    
+                <h2 data-animation="fadeInUp" data-delay=".4s">Professional Kitchen Consultation</h2>
+                <p data-animation="fadeInDown" data-delay=".4s">From concept to commissioning, we guide you through
+                  every step of setting up a world-class commercial kitchen.</p>
               </div>
-              <div class="slider-btn mt-30 ml">     
-                <a href="#" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover Now</a>  
-              </div>        
+              <div class="slider-btn mt-30 ml">
+                <a href="/contact" class="btn ss-btn mr-15" data-animation="fadeInLeft" data-delay=".4s">Get a Quote</a>
+              </div>
             </div>
             <div class="col-lg-5 col-md-12 p-relative">
             </div>

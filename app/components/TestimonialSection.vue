@@ -1,10 +1,11 @@
 <template>
-  <section id="testimonial" class="testimonial-area text-center p-relative fix pt-120 pb-100" style="background-color: #1e1e1e;background-image: url(/img/bg/testimonial-bg.png); background-size: cover;">
+  <section id="testimonial" class="testimonial-area text-center p-relative fix pt-120 pb-100"
+    style="background-color: #1e1e1e;background-image: url(/img/bg/testimonial-bg.png); background-size: cover;">
     <div class="container">
-      <div class="row">                    
+      <div class="row">
         <div class="col-lg-12">
-          <div class="section-title mb-35"> 
-            <h5><span class="line"> <img src="/img/bg/circle_right.png" alt="circle_right"></span> Our Testimonial</h5>                         
+          <div class="section-title mb-35">
+            <h5><span class="line"> <img src="/img/bg/circle_right.png" alt="circle_right"></span> Our Testimonial</h5>
             <h2>What They Say’s About Us</h2>
           </div>
         </div>
@@ -13,45 +14,113 @@
         <div class="col-lg-9">
           <div class="slider testimonial-nav">
             <div class="testimonial-item">
-              <img src="/img/testimonial/testi_avatar.png" alt="img">
+              <img src="https://goldenstoolkitchen.com/wp-content/uploads/2022/01/golden-logo.svg" alt="Golden Stool">
             </div>
             <div class="testimonial-item">
-              <img src="/img/testimonial/testi_avatar_02.png" alt="img">
+              <img src="/img/db.jpg" alt="Dohn Café">
             </div>
             <div class="testimonial-item">
-              <img src="/img/testimonial/testi_avatar_03.png" alt="img">
+              <img
+                src="https://media.istockphoto.com/id/1415397771/vector/teapot-logo-teahouse-logo-design.jpg?s=612x612&w=0&k=20&c=eOa2TDw60gIS3x-pfZM0Wnli048xnproGh1Ic-Xfzhg="
+                alt="Fahari Tea">
+            </div>
+            <div class="testimonial-item">
+              <img
+                src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_300,q_100,fl_lossy,dpr_2.0,c_fit,f_auto,h_300/qekxwuihiwpua1rhmxzw"
+                alt="Saffron Grill">
+            </div>
+            <div class="testimonial-item">
+              <!-- Placeholder for The Boma Hotel -->
+              <img src="/img/icon/se-icon1.png" alt="The Boma Hotel">
+            </div>
+            <div class="testimonial-item">
+              <!-- Placeholder for Coastal Spices -->
+              <img src="/img/icon/se-icon3.png" alt="Coastal Spices">
             </div>
           </div>
           <div class="slider testimonial-for">
+            <!-- Testimonial 1: Golden Stool -->
             <div class="single-testimonial-outer">
               <div class="single-testimonial">
-                <p>Ut tellus risus, suscipit lacinia mauris vel, varius sollicitudin purus. Ut mattis ullamcorper sapien, vel fermentum nisi condimentum non. In auctor ac risus ut tempor. Vestibulum pellentesque maximus eleifend. Aliquam vulputate, diam vel pretium accumsan, mi elit eleifend leo.</p>
+                <p>“I had the pleasure of working with Beyond Commercial Kitchen on our restaurant project, and I
+                  couldn't be more impressed. Despite my frequent travels, they managed the project seamlessly. From
+                  kitchen design to equipment selection, their expertise was exceptional. Golden Stool now has a
+                  functional kitchen that perfectly complements our menu.”</p>
                 <div class="testi-author">
                   <div class="ta-info">
-                    <h6>Alexis browni JR.</h6>
-                    <span>Our Client</span>
+                    <h6>Martin Yeboha</h6>
+                    <span>Golden Stool Restaurant</span>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- Testimonial 2: Dohn Café -->
             <div class="single-testimonial-outer">
               <div class="single-testimonial">
-                <p>Ut tellus risus, suscipit lacinia mauris vel, varius sollicitudin purus. Ut mattis ullamcorper sapien, vel fermentum nisi condimentum non. In auctor ac risus ut tempor. Vestibulum pellentesque maximus eleifend. Aliquam vulputate, diam vel pretium accumsan, mi elit eleifend leo.</p>
+                <p>“We had strict timelines to upgrade our cafe's kitchen. The team displayed excellent project
+                  management skills and attention to detail. They listened to our requirements and provided valuable
+                  recommendations. Thanks to their expertise, our kitchen is now more efficient and functional.”</p>
                 <div class="testi-author">
                   <div class="ta-info">
-                    <h6>Paul M. Matney</h6>
-                    <span>Our Client</span>
+                    <h6>Gideon</h6>
+                    <span>Dohn Café</span>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- Testimonial 3: Fahari Tea -->
             <div class="single-testimonial-outer">
               <div class="single-testimonial">
-                <p>Ut tellus risus, suscipit lacinia mauris vel, varius sollicitudin purus. Ut mattis ullamcorper sapien, vel fermentum nisi condimentum non. In auctor ac risus ut tempor. Vestibulum pellentesque maximus eleifend. Aliquam vulputate, diam vel pretium accumsan, mi elit eleifend leo.</p>
+                <p>“I can confidently recommend them for their excellent service. Throughout the process, they provided
+                  valuable guidance and support. Despite my busy schedule, they managed the project effectively,
+                  ensuring we got a kitchen that meets our needs. Their expertise and transparency was highly
+                  appreciated.”</p>
                 <div class="testi-author">
                   <div class="ta-info">
-                    <h6>Alexis browni JR.</h6>
-                    <span>Our Client</span>
+                    <h6>Tinega</h6>
+                    <span>Fahari Tea Restaurant</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial 4: Saffron Grill -->
+            <div class="single-testimonial-outer">
+              <div class="single-testimonial">
+                <p>“This being our first restaurant we had no knowledge of the process. The team provided guidance
+                  throughout, understanding our budget constraints and matching us with reliable suppliers. We truly got
+                  value for our money. Would highly recommend them.”</p>
+                <div class="testi-author">
+                  <div class="ta-info">
+                    <h6>Mukhtar</h6>
+                    <span>Saffron Grill</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial 5: The Boma Hotel (New) -->
+            <div class="single-testimonial-outer">
+              <div class="single-testimonial">
+                <p>“Beyond Commercial Kitchen transformed our banquet operations. Their custom stainless steel
+                  fabrication for our buffet line was world-class, delivered on time and perfectly fitted to our space
+                  in Nairobi.”</p>
+                <div class="testi-author">
+                  <div class="ta-info">
+                    <h6>Sarah Kamau</h6>
+                    <span>Production Manager, The Boma Hotel</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonial 6: Coastal Spices (New) -->
+            <div class="single-testimonial-outer">
+              <div class="single-testimonial">
+                <p>“Sourcing specific heavy-duty equipment in Mombasa can be tough, but their supply chain is seamless.
+                  From consultation to installation, they handled everything professionally. Highly recommended for
+                  commercial kitchen gear.”</p>
+                <div class="testi-author">
+                  <div class="ta-info">
+                    <h6>Chef Ali</h6>
+                    <span>Head Chef, Coastal Spices Mombasa</span>
                   </div>
                 </div>
               </div>
@@ -82,11 +151,11 @@ onMounted(() => {
       slidesToShow: 3,
       slidesToScroll: 1,
       asNavFor: '.testimonial-for',
-      dots:false,
-      arrows:true,
+      dots: false,
+      arrows: true,
       centerMode: true,
-      focusOnSelect: true, 
-      variableWidth:true,
+      focusOnSelect: true,
+      variableWidth: false,
       prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
       nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
     });

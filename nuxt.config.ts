@@ -1,10 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
+  site: {
+    url: 'https://commercialkitchen.co.ke',
+    name: 'Beyond Commercial Kitchen',
+    description: 'Premier commercial kitchen equipment, design, and fabrication solutions in Nairobi, Mombasa, Kisumu, and across Kenya.',
+    defaultLocale: 'en',
+  },
+  compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
+  modules: [
+    '@nuxtjs/seo'
+  ],
   app: {
     head: {
-      title: 'Designit - Interior Design HTML Template',
+      title: 'Beyond Commercial Kitchen - Premier Kitchen Equipment, Design, and Fabrication Solutions',
       bodyAttrs: {
         class: 'dark'
       },

@@ -1,29 +1,34 @@
 <template>
-  <section id="contact-info" class="contact-area after-none contact-bg p-relative fix pt-90 pb-60" style="background: #161616;" >
+  <section id="contact-info" class="contact-area after-none contact-bg p-relative fix pt-90 pb-60"
+    style="background: #161616;">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="contact-info">
-            <div class="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+            <div class="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated"
+              data-delay=".2s">
               <div class="f-cta-icon">
-                <i class="far fa-map"></i>
+                <i class="far fa-phone"></i>
               </div>
-              <h5>Office Address</h5>
-              <p>380 St Kilda Road, Melbourne <br>VIC 3004, Australia</p>
+              <h5>Phone Number</h5>
+              <p>+254 115 511 079</p>
             </div>
-            <div class="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-              <div class="f-cta-icon">
-                <i class="far fa-clock"></i>
-              </div>
-              <h5>Working Hours</h5>
-              <p>Monday to Friday 09:00 to 18:30 <br>Saturday 15:30</p>
-            </div>
-            <div class="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+            <div class="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated"
+              data-delay=".2s">
               <div class="f-cta-icon">
                 <i class="far fa-envelope-open"></i>
               </div>
-              <h5>Message Us</h5>
-              <p> <a href="#">support@example.com</a><br><a href="#">info@example.com</a></p>
+              <h5>Email Address</h5>
+              <p> <a href="mailto:info@commercialkitchen.co.ke">info@commercialkitchen.co.ke</a><br><a
+                  href="mailto:sales@commercialkitchen.co.ke">sales@commercialkitchen.co.ke</a></p>
+            </div>
+            <div class="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated"
+              data-delay=".2s">
+              <div class="f-cta-icon">
+                <i class="far fa-map"></i>
+              </div>
+              <h5>Physical Address</h5>
+              <p>Kindaruma Rd, Nairobi, Kenya</p>
             </div>
           </div>
         </div>
