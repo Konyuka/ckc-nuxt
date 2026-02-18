@@ -205,7 +205,7 @@
   position: absolute;
   left: 50%;
   top: 0;
-  bottom: 80px;
+  bottom: 300px;
   width: 4px;
   background: linear-gradient(180deg, #f47629 0%, #ff9a5a 50%, #f47629 100%);
   transform: translateX(-50%);
